@@ -1,0 +1,6 @@
+; Explicit entry point for my static function
+
+LIBRARY "MMTest2.dll"
+
+EXPORTS
+	MyGlobalEntry	= ?GlobalCoreEntry@MMTest2_GCore@@SA_NXZ
